@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------- NAVBAR SECTION --------------- */
+.navbar{
+    width: 100vw;
+    background-color: #131313;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+
+}
+#logo{
+    text-decoration: none;
+    /* color: white; */
+    margin: 20px;
+    background-color: #ff8177;
+    background-image: linear-gradient( to top, #ff0844 0% , #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     font-size: 2rem;
+     font-weight: bolder;
+
+
+}
+.navbar-container{
+    width: 90vw;
+    /* height: 80px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    display: flex;
+    
+}
+.navbar-items{
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+.navbar-links {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+.navbar-links::after{
+    
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: whitesmoke;
+    display: block;
+    margin: auto;
+    transition: all 0.7s ease;
+    
+}
+
+.navbar-links:hover::after{
+    transition: all 0.7s ease;
+    
+    width: 100%;
+}
+nav::after{
+    content: "";
+    background-color: whitesmoke ;
+    height: 2px;
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+/* ________________HERO SECTION----------- */
+
+
+.hero-home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131313;
+    width: 100%;
+    height: 80vh;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 50px;
+    background-image: linear-gradient( 180deg, red ,rgb(162, 0, 255) );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.sub-heading{
+    color: whitesmoke;
+    font-size: 25px;
+    background-image: linear-gradient( 180deg, red , aquamarine );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    
+     
+}
