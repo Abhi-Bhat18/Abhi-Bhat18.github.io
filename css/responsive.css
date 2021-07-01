@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px)  {
+    .navbar{
+        width: 100%;
+    }
+    .navbar-menu{
+        display: none;
+        /* grid-template: auto auto; */
+    }
+    #mobile-menu{
+        display: block;
+    }
+    .m-items{
+        color: white;
+    }
+    .menu-item{
+        position: absolute;
+        top: -200%;
+        left: 50%;
+        width: 100%;
+        background-color: #161616;
+    }
+    .menu-item li{
+        list-style: none;
+
+    }
+    .nav-icon{
+        display: block;
+    }
+    .fas{
+        color: white;
+    }
+    .hero-home{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .about-heading{
+        margin: 20px;
+
+    }
+    .about-image img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        object-fit: cover;
+
+    }
+    .services{
+        height: 100%;
+    }
+    .service-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        /* height: 50%; */
+        width: 100%;
+        margin: 10px auto;
+    }
+    #box-1{
+        height:60vh ;
+        margin: 10px auto;
+    }
+    #box-2{
+        height:60vh ;
+        margin: 10px auto;
+    }
+    #box-3{
+        height:60vh ;
+        margin: 10px auto;
+    }
+    #box-4{
+        height:60vh ;
+        margin: 10px auto;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        height: 100%;
+    }
+    .contact-heading h1{
+        padding-top: 100px;
+    }
+    
+    .contact-address{
+        margin: 50px auto 20px auto;
+
+    }
+    input[placeholder]{
+        width: 60vw;
+        /* height: 60px;
+         */
+         padding: 5px;
+    }
+    textarea[placeholder]{
+        width: 70vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .heading{
+        font-size: 50px;
+    }
+    .about-heading{
+        margin: 20px;
+
+    }
+    .about-image img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        object-fit: cover;
+
+    }
+    .service-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        /* flex-basis: 50%; */
+        height: 50vh;
+    }
+    .contact{
+        height: 100%;
+    }
+    .contact-heading h1{
+        padding-top: 100px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-address{
+        margin: 50px auto 20px auto;
+
+    }
+    input[placeholder]{
+        width: 60vw;
+        /* height: 60px;
+         */
+         padding: 5px;
+    }
+    textarea[placeholder]{
+        width: 70vw;
+    }
+    
+}

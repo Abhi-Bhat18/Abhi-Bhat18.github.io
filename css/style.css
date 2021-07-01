@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------- NAVBAR SECTION --------------- */
+.navbar{
+    width: 100%;
+    background-color: #161616;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+
+}
+#logo{
+    text-decoration: none;
+    /* color: white; */
+    margin: 20px;
+    background-color: #ff8177;
+    background-image: linear-gradient( to top, #ff0844 0% , #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     font-size: 2rem;
+     font-weight: bolder;
+
+
+}
+.navbar-container{
+    width: 80vw;
+    /* height: 80px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    display: flex;
+    
+}
+.navbar-items{
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+.navbar-links {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+.navbar-links::after{
+    
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: whitesmoke;
+    display: block;
+    margin: auto;
+    transition: all 0.7s ease;
+    
+}
+
+.navbar-links:hover::after{
+    transition: all 0.7s ease;
+    
+    width: 100%;
+}
+nav::after{
+    content: "";
+    background-color: whitesmoke ;
+    height: 2px;
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+.navbar-toggle{
+    display: none;
+}
+/* ________________HERO SECTION----------- */
+
+
+.hero-home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right , #161616 , #000);
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 100px;
+    text-align: center;
+    
+}
+span{
+    display: block;
+    font-size: 90px;
+    background: linear-gradient(
+        to right,
+        #ff6a00,
+        #ee0979
+      );
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -mo-text-fill-color: transparent;
+}
+.sub-heading{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    background-image: linear-gradient( 360deg ,#fff , purple);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    
+     
+}
+.button{
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    padding: 15px 45px;
+    background: #833ab4 ;
+    /* background: linear-gradient(to left, red , green) ; */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d );
+  background: linear-gradient(to right, #fcb045, #fd1d1d);
+    cursor: pointer;
+}
+
+
+.button:hover{
+     transform: scale(1.05); 
+     transition:all 0.2s ease;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+    border: 2px solid ;
+} 
+
+
+/* -----------------------ABOUT------------------ */
+.about{
+    background: #161616;
+    
+}
+.about::after{
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+
+}
+.about-heading{
+    /* background-color: yellow; */
+    color: white;
+    flex-basis: 50%;
+    margin: 60px;
+    padding: 20px;
+   
+    
+}
+.about-heading h1{
+    color: white;
+    font-size: 50px;
+    background: linear-gradient(to top , white , gray);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-family: 'Suez One', serif;
+    /* font-family: 'Big Shoulders Stencil Display', cursive; */
+    padding-top: 25px;
+    text-align: left;
+    
+    
+
+}
+.about-heading h3{
+    color: white;
+    
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.about-heading p{
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    text-align: left;
+  
+}
+.navbar-icon{
+    background-color: white;
+
+}
+.about-image{
+    flex-basis: 50%;
+    margin: 20px;
+    
+}
+.about-image img{
+    border-radius: 20px;
+}
+/* ----------------------services--------------- */
+.services{
+    background-color: #161616;
+    width: 100%;
+    height: 100vh;
+    
+}
+.service-heading{
+    padding-top: 75px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(to top,red,purple);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.service-list{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.service{
+   /* height: 200px; */
+   width: 80vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   height: 60vh;
+   border-radius: 10px;
+
+}
+.service:hover{
+    transform: scale(1.02) ;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.856);
+    cursor: pointer;
+   
+    
+}
+.service h3{
+    /* margin: px; */
+    text-align: center;
+    color: white;
+}
+.service h2{
+    margin: 5px 10px;
+    text-align: center;
+    color: white;
+}
+#box-1{
+    background: red ;
+    background-image: linear-gradient(45deg, red,green 50%,red);
+    margin: 0px 8px;
+}
+#box-2{
+    background: red ;
+    background-image: linear-gradient(45deg, red,green 50%,red);
+    margin: 0px 10px;
+}
+#box-3{
+    background: red ;
+    background-image: linear-gradient(135deg, red,green 50%,red);
+    margin: 0px 10px;
+}
+
+#box-4{
+    background: red ;
+    background-image: linear-gradient(135deg, red,green 50%,red);
+    margin: 0px 10px;
+}
+/* ----------------------CONTACT-------------------- */
+.contact{
+    background-color: #161616;
+    height: 80vh;
+    width: 100%;
+}
+.contact-width{
+    width: 90%;
+    margin: auto;
+}
+.contact-heading h1{
+    color: white;
+    text-align: center;
+    padding: 40px auto;
+    font-size: 2rem;
+}
+.contact-form{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.contact-detail{
+    /* background-color: white; */
+    flex-basis: 45%;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact-detail h3{
+    color: white;
+    margin: 20px 10px;
+    font-size: 30px;
+}
+.contact-address{
+    /* background-color: white; */
+    flex-basis: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-address h3{
+    color: white;
+    font-size: 25px;
+}
+input[placeholder]{
+    width: 23vw;
+    /* height: 60px;
+     */
+     padding: 8px;
+}
+.contact-detail{
+    padding: 10px 15px;
+}
+textarea[placeholder]{
+    width: 20vw;
+    height: 30vw;
+    padding: 10px;
+}
