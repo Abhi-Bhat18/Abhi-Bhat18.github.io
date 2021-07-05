@@ -86,6 +86,19 @@ nav::after{
 .navbar-toggle{
     display: none;
 }
+.menu-item{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    background-color: #131313;
+
+}
+.m-items{
+    margin: 10px;
+}
 /* ________________HERO SECTION----------- */
 
 
@@ -149,7 +162,7 @@ span{
     transform-style: preserve-3d;
     border-radius: 5px;
     border: 2px solid ;
-} 
+}
 
 
 /* -----------------------ABOUT------------------ */
