@@ -6,25 +6,33 @@
         display: none;
         /* grid-template: auto auto; */
     }
-    #mobile-menu{
+    .navbar-toggle {
+        display: flex;
+      }
+    /* #mobile-menu{
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         top: 0%;
         left: 0%;
+    } */
+    .menu-icon{
+        position: absolute;
+        left: 80%;
     }
     .m-items{
         color: white;
     }
     .menu-item{
-        position: absolute;
-        top: -200%;
-        left: 100%;
-        /* height: 40vh; */
 
-        width: 100vw;
+        position: absolute;
+        top: -500%;
+        width: 100%;
         background-color: #161616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .menu-item li{
         list-style: none;
@@ -111,6 +119,36 @@
     textarea[placeholder]{
         width: 70vw;
     }
+    .footContainer{
+        max-width: 80vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 5%  ;
+        padding-bottom: 3%;
+      }
+      .footContainer h2::after{
+        content: '';
+        position: relative;
+        display: block;
+        /* margin: auto; */
+        background-color: red;
+        height: 2px;
+        width: 80px;
+      
+      }
+      .box{
+          margin: 40px auto;
+      }
+      .footContainer i{
+        margin: 10px;
+        padding: 10px ;
+        color:  #bbbbbb;
+        
+        text-align: center;
+        border-radius: 50%;
+      }
 }
 @media screen and (max-width:400px) {
     .heading{
@@ -158,5 +196,30 @@
     textarea[placeholder]{
         width: 70vw;
     }
-    
+    .footContainer{
+        max-width: 80vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 5%  ;
+        padding-bottom: 3%;
+      }
+      .footContainer h2::after{
+        content: '';
+        position: relative;
+        display: block;
+        /* margin: auto; */
+        background-color: red;
+        height: 2px;
+        width: 50px;
+      
+      }.footContainer i{
+        margin: 10px;
+        padding: 10px ;
+        color:  #bbbbbb;
+        
+        text-align: center;
+        border-radius: 50%;
+      }
 }

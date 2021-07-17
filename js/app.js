@@ -11,7 +11,7 @@ function open_menu(){
 function closes(){
     // menu.style.display = "none"
     // menu.style.position = "absolute"
-    menu.style.top ="-200%";
+    menu.style.top ="-500%";
     menu.style.transition = "all 0.5s ease";
     button.style.display = "block";
 }
